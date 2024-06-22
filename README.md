@@ -10,3 +10,7 @@ nix develop # Enter the development environment
 eval "$buildPhase"
 ./hello
 ```
+
+```sh
+nix shell github:kogakure/nix-flake-go -c hello # Run the command directly from GitHub
+```
